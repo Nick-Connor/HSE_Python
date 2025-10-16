@@ -56,3 +56,26 @@ Richard и Trisha
 boys = [Peter, Alex, John, Arthur, Richard, Michael]
 girls = [Kate, Liza, Kira, Emma, Trisha]
 Результат: Внимание, кто-то может остаться без пары.
+
+# Task 5
+
+Необходимо написать программу, которая сформирует словарь данных на основании
+заданных критериев (ключ = ключ в исходной структуре, значение = True — если
+количество ниже 20 , False — остальные случаи). При разработке использовать
+dict comprehension.
+
+items = {
+'milk15':{'name': 'молоко 1.5%', 'count': 34', 'price': 89.9},
+'cheese':{'name': сыр молочный 1 кг.', 'count': 12', 'price': 990.9},
+'sausage':{'name': колбаса 1 кг.', 'count': 122', 'price': 1990.9}
+}
+Результат:
+price_less_20 = {
+'milk15': False,
+'cheese': True,
+'sausage': False
+}
+
+В результате обработки структуры items с помощью dict
+comprehension была сформирована структура price_less_20 =
+{ 'milk15': False, 'cheese': True, 'sausage': False }
